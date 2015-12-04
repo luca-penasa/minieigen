@@ -1,6 +1,8 @@
 #include"converters.hpp"
 void expose_converters(){
 	custom_VectorAnyAny_from_sequence<VectorXr>();
+    custom_VectorAnyAny_from_sequence<VectorXf>();
+
 	custom_VectorAnyAny_from_sequence<Vector6r>();
 	custom_VectorAnyAny_from_sequence<Vector6i>();
 	custom_VectorAnyAny_from_sequence<Vector3r>();
@@ -14,6 +16,8 @@ void expose_converters(){
 	custom_MatrixAnyAny_from_sequence<Matrix3r>();
 	custom_MatrixAnyAny_from_sequence<Matrix6r>();
 	custom_MatrixAnyAny_from_sequence<MatrixXr>();
+    custom_MatrixAnyAny_from_sequence<MatrixXf>();
+
 
 	#ifdef _COMPLEX_SUPPORT
 		custom_VectorAnyAny_from_sequence<Vector2cr>();

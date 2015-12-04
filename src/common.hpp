@@ -38,6 +38,9 @@ typedef Eigen::Matrix<Real,6,6> Matrix6r;
 typedef Eigen::Matrix<Real,Eigen::Dynamic,Eigen::Dynamic> MatrixXr;
 typedef Eigen::Matrix<Real,Eigen::Dynamic,1> VectorXr;
 
+typedef Eigen::Matrix<float,Eigen::Dynamic,Eigen::Dynamic> MatrixXf;
+typedef Eigen::Matrix<float,Eigen::Dynamic,1> VectorXf;
+
 typedef Eigen::Quaternion<Real> Quaternionr;
 typedef Eigen::AngleAxis<Real> AngleAxisr;
 typedef Eigen::AlignedBox<Real,3> AlignedBox3r;
